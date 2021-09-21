@@ -8,6 +8,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Purpose: Method to read Stock.json file and find the total price
+ * @author - Utkarsh Mishra
+ * @since - 2021-09-21
+ */
+
 public class StockManagement {
     public static Scanner sc = new Scanner(System.in);
     public static JSONArray stockList = new JSONArray();
@@ -90,7 +96,3 @@ public class StockManagement {
         getInputFromUser();
     }
 }
-
-//// Object => Main Hirerachy
-//||
-//JSON Object & JSON Array....
